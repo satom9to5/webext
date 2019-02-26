@@ -6,6 +6,5 @@ services:
       context: .
     image: satom9to5/webext-nativemessaging
     volumes:
-      #- .:/go/src/github.com/satom9to5/webext/nativemessaging
       - .:/nativemessaging
     tty: true
